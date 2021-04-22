@@ -1,7 +1,9 @@
 package com.homestock.homestock.entitites;
 
+import lombok.NoArgsConstructor;
 import java.util.Objects;
 
+@NoArgsConstructor
 public class User {
     private String name;
     private String email;
