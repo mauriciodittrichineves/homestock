@@ -23,7 +23,7 @@ class UserTest {
     @Test
     public void whenToCreateANewUser(){
 
-        User newUser = new User(name,email,cpf,password);
+        User newUser =  new User(name,email,cpf,password);
 
         Assertions.assertEquals(name,newUser.getName());
     }
